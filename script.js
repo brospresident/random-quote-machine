@@ -48,7 +48,6 @@ let getQuote = function() {
     let color = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 
     $('html body').animate({
-        color: color,
         backgroundColor: color
     }, 1000);
 
